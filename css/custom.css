@@ -1,8 +1,3 @@
-/* =====================================================
-   NEXORA — Premium Bootstrap 5 Business Theme
-   Custom Design System (overrides + extensions)
-   ===================================================== */
-
 :root {
   /* Color system */
   --n-primary: #155EEF;
@@ -948,4 +943,52 @@ a { text-decoration: none; }
   background: var(--n-bg);
   border-radius: var(--n-radius-md);
   height: 100%;
+}
+/* =====================================================
+   SUBMENU / DROPDOWN (CUSTOM)
+   ===================================================== */
+/* Estilo do container do menu suspenso */
+.dropdown-menu-custom {
+  border: 1px solid var(--n-border);
+  border-radius: var(--n-radius-sm);
+  background-color: var(--n-white);
+  box-shadow: var(--n-shadow-md);
+  padding: 0.5rem 0;
+  margin-top: 0.25rem !important;
+}
+
+/* Estilo das opções do submenu */
+.dropdown-menu-custom .dropdown-item {
+  font-family: var(--n-font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--n-navy);
+  padding: 0.6rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+/* Destaque ao passar o mouse no item do submenu */
+.dropdown-menu-custom .dropdown-item:hover,
+.dropdown-menu-custom .dropdown-item:focus {
+  background-color: var(--n-bg-alt);
+  color: var(--n-primary);
+}
+
+/* Exibição automática do submenu ao passar o mouse em monitores/notebooks */
+@media (min-width: 992px) {
+  .dropdown-custom:hover > .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.2s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

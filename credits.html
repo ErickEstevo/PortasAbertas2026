@@ -23,13 +23,22 @@
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto align-items-lg-center gap-1 mt-3 mt-lg-0">
-           <li class="nav-item"><a class="nav-link nav2 active"  href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav2 active"  href="home.html">Home</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="services.html">Education</a></li>
+		  <li class="nav-item"><a class="nav-link nav2" href="application.html">Application</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="bibliography.html">Bibliography</a></li>
-          <li class="nav-item"><a class="nav-link nav2" href="credits.html">Credits</a></li>
+          <li class="nav-item dropdown dropdown-custom">
+  <a class="nav-link nav2 dropdown-toggle" href="credits.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Crédits
+  </a>
+  <ul class="dropdown-menu dropdown-menu-custom">
+    <li><a class="dropdown-item" href="advisors.html">Advisors</a></li>
+    <li><a class="dropdown-item" href="credits.html">Developers</a></li>
+  </ul>
+</li>
           <li class="nav-item"><a class="nav-link nav2" href="contact.html">Contact</a></li>
-		  <li class="nav-item"><a class="nav-link nav2" href="index.html">PT-BR</a></li>
+		  <li class="nav-item"><a class="nav-link nav2 active" href="index.html">PT-BR</a></li>
           <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
           <!--  <a href="contact.html" class="btn btn-primary btn-sm-custom w-100">Get Started</a>-->
           </li>
@@ -61,10 +70,8 @@
                 </div> -->
                 <div class="col-md-6 d-flex flex-column justify-content-center p-4">
                   <span class="tag-pill">Developers</span>
-                  <h3 class="mb-2">Developers & Advisors</h3>
-                  <p class="mb-3">Developers:<br><br> . Erick  Estevo <br> . Henrique Almeida <br> . João Heric <br> . Guilherme Otávio <br><br><br> Advisors:<br><br> . -Teacher Célia Aparecida Barufaldi <br>
-				  Degree in Data Processing Technology<br>Specialist in Systems Analysis<br>Specialist in Networks and Data Security  <br><br> -Teacher Waldir Ferreira da Silva Júnior<br>Bachelor's in Languages
-				  <br> Postgraduate in Psychopedagogy<br> Master's in Education
+                  <h3 class="mb-2"></h3>
+                  <p class="mb-3">. Erick  Estevo <br> . Henrique Almeida <br> . João Heric <br> . Guilherme Otávio 
 
 				  </p>
                   <div class="d-flex align-items-center gap-2 text-slate-light small">
@@ -76,167 +83,7 @@
             </div>
           </a>
 
-         <!-- <div class="row g-4">
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&h=320&fit=crop" alt="Design system component library">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Design</span>
-                    <h3 class="card-title">Why Your Design System Keeps Falling Apart</h3>
-                    <p class="small mb-0">Three common reasons design systems decay — and how to structure yours to last.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Priya Nair</span>
-                      <span><i class="bi bi-clock me-1"></i>5 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=320&fit=crop" alt="Cloud infrastructure servers">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Engineering</span>
-                    <h3 class="card-title">A Practical Guide to Cutting Cloud Costs by 40%</h3>
-                    <p class="small mb-0">The audit checklist we run on every client infrastructure review.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Marcus Lee</span>
-                      <span><i class="bi bi-clock me-1"></i>9 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=320&fit=crop" alt="Analytics charts on laptop">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Growth</span>
-                    <h3 class="card-title">The Onboarding Metrics That Actually Predict Churn</h3>
-                    <p class="small mb-0">Forget vanity metrics — these are the signals worth tracking from day one.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Anna Kowalski</span>
-                      <span><i class="bi bi-clock me-1"></i>6 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&h=320&fit=crop" alt="Developer writing code">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Engineering</span>
-                    <h3 class="card-title">Migrating a Legacy App Without Breaking Production</h3>
-                    <p class="small mb-0">Our phased-migration playbook, tested across a dozen client codebases.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Marcus Lee</span>
-                      <span><i class="bi bi-clock me-1"></i>8 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&h=320&fit=crop" alt="Team brainstorming with sticky notes">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Strategy</span>
-                    <h3 class="card-title">Running Discovery Sprints Remotely: A Step-by-Step Guide</h3>
-                    <p class="small mb-0">How we replicate in-person workshop energy across timezones.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Daniel Hwang</span>
-                      <span><i class="bi bi-clock me-1"></i>10 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-md-6 reveal">
-              <a href="blog-details.html" class="text-decoration-none">
-                <div class="card-premium p-0 overflow-hidden">
-                  <div class="blog-card-img">
-                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=320&fit=crop" alt="Mobile app prototypes on table">
-                  </div>
-                  <div class="blog-card-body pb-4">
-                    <span class="tag-pill">Design</span>
-                    <h3 class="card-title">Accessibility Isn't Optional: A Practical Audit Checklist</h3>
-                    <p class="small mb-0">A 20-point checklist we apply before every product handoff.</p>
-                    <div class="meta-row">
-                      <span><i class="bi bi-person me-1"></i>Priya Nair</span>
-                      <span><i class="bi bi-clock me-1"></i>6 min</span>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- Pagination 
-          <nav class="mt-5 reveal" aria-label="Blog pagination">
-            <ul class="pagination justify-content-center gap-2">
-              <li class="page-item"><a class="page-link rounded-3 border-0 bg-soft text-navy" href="#"><i class="bi bi-arrow-left"></i></a></li>
-              <li class="page-item"><a class="page-link rounded-3 border-0 btn-primary text-white" href="#">1</a></li>
-              <li class="page-item"><a class="page-link rounded-3 border-0 bg-soft text-navy" href="#">2</a></li>
-              <li class="page-item"><a class="page-link rounded-3 border-0 bg-soft text-navy" href="#">3</a></li>
-              <li class="page-item"><a class="page-link rounded-3 border-0 bg-soft text-navy" href="#"><i class="bi bi-arrow-right"></i></a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <!-- SIDEBAR 
-        <div class="col-lg-4">
-          <div class="widget reveal">
-            <h5>Search</h5>
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search articles...">
-              <button class="btn btn-primary"><i class="bi bi-search"></i></button>
-            </div>
-          </div>
-          <div class="widget reveal">
-            <h5>Categories</h5>
-            <ul class="widget-link-list">
-              <li>Product Strategy <span>12</span></li>
-              <li>Design <span>18</span></li>
-              <li>Engineering <span>24</span></li>
-              <li>Growth <span>9</span></li>
-              <li>Company News <span>5</span></li>
-            </ul>
-          </div>
-          <div class="widget reveal">
-            <h5>Popular Tags</h5>
-            <div class="d-flex flex-wrap gap-2">
-              <span class="badge-soft">UX Research</span>
-              <span class="badge-soft">Figma</span>
-              <span class="badge-soft">React</span>
-              <span class="badge-soft">SaaS</span>
-              <span class="badge-soft">DevOps</span>
-              <span class="badge-soft">Branding</span>
-              <span class="badge-soft">Onboarding</span>
-            </div>
-          </div>
-          <div class="widget bg-gradient-dark text-white border-0 reveal">
-            <div class="icon-box icon-box-white mb-3"><i class="bi bi-envelope-paper"></i></div>
-            <h5 class="text-white">Subscribe to our newsletter</h5>
-            <p class="text-white-50 small mb-3">One email a month — practical insights, no fluff.</p>
-            <form class="needs-validation" novalidate>
-              <input type="email" class="form-control mb-2" placeholder="Your email" required style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.12); color:#fff;">
-              <button class="btn btn-primary w-100" type="submit">Subscribe</button> -->
+       
             </form>
           </div>
         </div>
@@ -248,8 +95,8 @@
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6">
-          <a class="navbar-brand-custom d-inline-block mb-3" href="index.html" style="color:#fff !important;">- Stephen Hawking<span style="color:var(--n-primary)">.</span></a>
-          <p class="text-white-50 mb-4" style="max-width:320px;">"A IA é o último feito da humanidade, mas também o último que a humanidade dominará."</p>
+          <a class="navbar-brand-custom d-inline-block mb-3" href="index.html" style="color:#fff !important;">Liked the website<span style="color:var(--n-primary)">?</span></a>
+          <p class="text-white-50 mb-4" style="max-width:320px;">If you liked the site or have a complaint, please send us a message on the contact page.</p> 
           <div class="d-flex gap-2">
           <!--  <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
             <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
@@ -283,7 +130,7 @@
         </div>
       </div>
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
-        <p class="mb-0" style="display: flex;">&copy; ETEC Hortolandia </p>
+        <p class="mb-0" style="display: flex;">ETEC Hortolândia 2026 - &copyAll rights reserved<br>Non-profit academic work.</p>
         <div class="d-flex gap-4">
         <!--  <a href="#" class="mb-0">Privacy Policy</a>
           <a href="#" class="mb-0">Terms of Service</a> -->

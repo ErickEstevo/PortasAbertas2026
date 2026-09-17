@@ -26,8 +26,17 @@
           <li class="nav-item"><a class="nav-link nav2 active"  href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="sobre.html">Sobre</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="serviços.html">Formação</a></li>
+		  <li class="nav-item"><a class="nav-link nav2" href="aplicaçao.html">Aplicações</a></li>
           <li class="nav-item"><a class="nav-link nav2" href="bibliografia.html">Bibliografia</a></li>
-          <li class="nav-item"><a class="nav-link nav2" href="credito.html">Créditos</a></li>
+          <li class="nav-item dropdown dropdown-custom">
+  <a class="nav-link nav2 dropdown-toggle" href="credito.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Créditos
+  </a>
+  <ul class="dropdown-menu dropdown-menu-custom">
+    <li><a class="dropdown-item" href="orientadores.html">Orientadores</a></li>
+    <li><a class="dropdown-item" href="credito.html">Desenvolvedores</a></li>
+  </ul>
+</li>
           <li class="nav-item"><a class="nav-link nav2" href="contato.html">Contato</a></li>
 		  <li class="nav-item"><a class="nav-link nav2 active"  href="home.html">EN</a></li>
           <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
@@ -41,7 +50,7 @@
   <!-- PAGE HEADER -->
   <header class="page-header">
     <div class="container">
-      <h1 class="mb-3">Quanto ganham e o que fazem</h1>
+      <h1 class="mb-3">Saiba mais</h1>
       <div class="breadcrumb-custom">
         <a href="index.html">Home</a> <span>/</span> <span class="active">Sobre</span>
       </div>
@@ -81,119 +90,16 @@
   </section>
 
   <!-- MISSION / VALUES -->
-  <section class="section bg-soft">
-    <div class="container">
-      <div class="row section-header justify-content-center text-center">
-        <div class="col-lg-7 reveal">
-          <span class="eyebrow">Principais profissões</span>
-          <h2 class="section-title">Quais são as principais profissões:</h2>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <div class="icon-box icon-box-primary mx-auto mb-3"><i class="bi bi-bullseye"></i></div>
-            <h3 class="card-title">Cientista de Dados</h3>
-            <p>Minera, arruma e traduz montanhas de dados em respostas práticas. Esse profissional cria modelos preditivos e usa inteligência artificial 
-			para pescar padrões ocultos, clareando o caminho para decisões estratégicas.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <div class="icon-box icon-box-secondary mx-auto mb-3"><i class="bi bi-chat-square-text"></i></div>
-            <h3 class="card-title">Engenheiro de Machine Learning</h3>
-            <p>Cria e põe para rodar algoritmos de machine learning. O foco aqui é construir sistemas inteligentes que aprendem sozinhos com a informação 
-			que recebem, evoluindo a própria performance sem precisar de intervenção constante.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <div class="icon-box icon-box-success mx-auto mb-3"><i class="bi bi-gem"></i></div>
-            <h3 class="card-title">Engenheiro de Prompt</h3>
-            <p>Desenha, testa e refina comandos para arrancar os melhores resultados possíveis das IAs generativas. Basicamente, ele 
-			traduz o que a gente quer para a linguagem que a máquina entende.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <div class="icon-box icon-box-primary mx-auto mb-3"><i class="bi bi-arrow-repeat"></i></div>
-            <h3 class="card-title">Salários</h3>
-            <p>Um Cientista de dados ganha em média R$ 11.099,46 mensais; já um Engenheiro de Machine Learning ganha em média R$ 8.671 mensais; e o Engenheiro de Prompt em média R$ 15.000 mensais.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
-  <!-- TEAM 
-  <section class="section">
-    <div class="container">
-      <div class="row section-header justify-content-center text-center">
-        <div class="col-lg-7 reveal">
-          <span class="eyebrow">Leadership</span>
-          <h2 class="section-title">Meet the people steering the ship</h2>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <img src="https://i.pravatar.cc/160?img=8" class="rounded-circle mb-3" style="width:96px;height:96px;object-fit:cover;" alt="Daniel Hwang, CEO">
-            <h3 class="card-title">Daniel Hwang</h3>
-            <p class="text-primary-custom fw-semibold mb-2">CEO &amp; Co-Founder</p>
-            <p class="small">Formerly led product at two YC-backed startups before founding Nexora.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <img src="https://i.pravatar.cc/160?img=47" class="rounded-circle mb-3" style="width:96px;height:96px;object-fit:cover;" alt="Priya Nair, Head of Design">
-            <h3 class="card-title">Priya Nair</h3>
-            <p class="text-primary-custom fw-semibold mb-2">Head of Design</p>
-            <p class="small">Leads the design system practice and a team of 14 product designers.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <img src="https://i.pravatar.cc/160?img=52" class="rounded-circle mb-3" style="width:96px;height:96px;object-fit:cover;" alt="Marcus Lee, Head of Engineering">
-            <h3 class="card-title">Marcus Lee</h3>
-            <p class="text-primary-custom fw-semibold mb-2">Head of Engineering</p>
-            <p class="small">Oversees architecture and DevOps across all active client builds.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 reveal">
-          <div class="card-premium text-center">
-            <img src="https://i.pravatar.cc/160?img=25" class="rounded-circle mb-3" style="width:96px;height:96px;object-fit:cover;" alt="Anna Kowalski, Client Success Lead">
-            <h3 class="card-title">Anna Kowalski</h3>
-            <p class="text-primary-custom fw-semibold mb-2">Client Success Lead</p>
-            <p class="small">Your main point of contact — keeps every engagement on track.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA 
-  <section class="section pt-0">
-    <div class="container">
-      <div class="cta-section reveal">
-        <div class="row align-items-center">
-          <div class="col-lg-8">
-            <h2 class="mb-2">Want to work with us?</h2>
-            <p class="mb-0 fs-5">We're currently accepting 3 new partners for Q3 2026.</p>
-          </div>
-          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-            <a href="contact.html" class="btn btn-primary btn-lg-custom">Get in Touch <i class="bi bi-arrow-right ms-1"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>-->
+ 
 
   <footer class="footer-nexora">
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6">
-         <a class="navbar-brand-custom d-inline-block mb-3" href="index.html" style="color:#fff !important;">- Stephen Hawking<span style="color:var(--n-primary)">.</span></a>
-          <p class="text-white-50 mb-4" style="max-width:320px;">"A IA é o último feito da humanidade, mas também o último que a humanidade dominará."</p>
+         <a class="navbar-brand-custom d-inline-block mb-3" href="index.html" style="color:#fff !important;">Gostou do site<span style="color:var(--n-primary)">?</span></a>
+          <p class="text-white-50 mb-4" style="max-width:320px;">Caso tenha gostado do site ou tem alguma reclamação para fazer, nos envie uma mensagem na página contato.</p> 
           <div class="d-flex gap-2">
           <!--  <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
             <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
@@ -227,7 +133,7 @@
         </div>
       </div>
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
-        <p class="mb-0" style="display: flex;">&copy; ETEC Hortolandia </p>
+        <p class="mb-0" style="display: flex;">ETEC Hortolândia 2026 - &copyTodos os direitos reservados<br>Trabalho acadêmico sem fins lucrativos.</p>
         <div class="d-flex gap-4">
         <!--  <a href="#" class="mb-0">Privacy Policy</a>
           <a href="#" class="mb-0">Terms of Service</a> -->
